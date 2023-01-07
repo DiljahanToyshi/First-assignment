@@ -1,0 +1,57 @@
+/* first page */
+.banner-container {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+
+    Width: 100%;
+    Height: 100vh;
+    background-image: url("./images/banner/banner1.png");
+    background-repeat: no-repeat;
+    Width:
+        1600px;
+    height:
+        809px;
+        Top:
+92px;
+Left:
+1780px;
+
+    color:
+        Dark 02 #444343;
+    background-blend-mode: hard-light;
+}
+
+.title-banner {
+    margin-right: 10%;
+    text-align: right;
+    font-family: Work Sans;
+    font-style: Bold;
+    font-size: 65px;
+
+}
+
+.title-descrip {
+    text-align: right;
+    margin-right: 10%;
+    font-family: Work Sans;
+    font-style: Regular;
+    font-size: 16px;
+}
+
+.banner-details {
+    text-align: right;
+    margin-right: 10%;
+}
+
+.button {
+    margin-right: 10%;
+    Width:160px;
+    Height:64px;
+    top: 578px;
+    left: 1210px;
+    border-radius:5px;
+    color: #FFFFFF ;
+  border-style: none;
+    background-color: #F15B22;
+}
