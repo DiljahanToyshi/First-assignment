@@ -1,4 +1,7 @@
 /* first page */
+.first{
+    position: absolute;
+}
 .banner-container {
     display: flex;
     justify-content: right;
@@ -6,24 +9,26 @@
 
     Width: 100%;
     Height: 100vh;
+  
+    
+Left:
+1780px;
+
+    color:
+        Dark 02 #444343b3;
+    background-blend-mode: hard-light;
+}
+.banner-details{
     background-image: url("./images/banner/banner1.png");
     background-repeat: no-repeat;
     Width:
         1600px;
     height:
         809px;
-        Top:
-92px;
-Left:
-1780px;
-
-    color:
-        Dark 02 #444343;
-    background-blend-mode: hard-light;
+        top:92px;
 }
-
 .title-banner {
-    margin-right: 10%;
+    margin-right: 2%;
     text-align: right;
     font-family: Work Sans;
     font-style: Bold;
@@ -33,7 +38,7 @@ Left:
 
 .title-descrip {
     text-align: right;
-    margin-right: 10%;
+    margin-right: 2%;
     font-family: Work Sans;
     font-style: Regular;
     font-size: 16px;
@@ -41,11 +46,12 @@ Left:
 
 .banner-details {
     text-align: right;
-    margin-right: 10%;
+    margin-right: 2%;
+    
 }
 
 .button {
-    margin-right: 10%;
+    margin-right:2%;
     Width:160px;
     Height:64px;
     top: 578px;
@@ -54,4 +60,141 @@ Left:
     color: #FFFFFF ;
   border-style: none;
     background-color: #F15B22;
+}
+/* 2nd page section */
+.second-page{
+    margin-top: 0 auto;
+    
+}
+.picture{
+    margin-left: 100px;
+    margin-top: 200px;
+   background-color: #F15B2233;
+   position: static;
+width: 527.93px;
+height: 527.93px;
+left: 228.86px;
+top: 1134.37px;
+border-radius: 50%;
+
+  
+   
+}
+.second-page-box{
+    text-align: right;
+    margin-top:-400px;
+    margin-right: 10%;
+position: static;
+}
+.second-page-list{
+    text-align: right;
+}
+.picture{
+    text-align: left;
+}
+/*  my plans section */
+.plan-header{
+    margin-top:200px ;
+    margin-bottom:100px ;
+    text-align: center;
+    
+    
+}
+.my-goal-container{
+    display: flex;
+    gap: 30px;
+}
+.p goal{
+    
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+}
+.goal{
+    width: 218px;
+
+margin-left: 3%;
+}
+.desc{
+    color: #737272;
+
+}
+/* fourth-section */
+.fourth-section{
+background-image: url("./images/watch.png"),linear-gradient(30deg, #3322f1 0%, rgba(34, 135, 204, 0.6)
+40%);
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+position: absolute;
+border-radius: 8px;
+width: 1140px;
+height: 300px;
+left: 100px;
+top: 1950px;
+}
+.section{
+    position: absolute;
+margin-top:10px;
+bottom:30 px;
+left:65px;
+right: 617px;
+}
+.always{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+}
+.call{
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    color: #3322f1;
+    font-size: 18px;
+    Weight:
+60;
+Size:
+20px;
+}
+/* last part styles */
+.contact{
+    display: flex;
+    background-color:black;
+    color: #F8F8F8;
+    position: absolute;
+    width: 1600px;
+    height: 377px;
+    left: 0px;
+    top: 2300px;
+    padding: 130px 230px;
+}
+.section-title{
+    text-align:center; 
+    display: flex;
+}
+.info{
+  display: flex; 
+
+}
+.subscribe{
+    margin-left: 100px;
+}
+.input{
+    height: 40px;
+    border: none;
+     border-radius: 6px;
+    
+}
+.sub{
+    border-radius: 6px;
+    border: none;
+    color: #3322f1;
+    font-size: 15px;
+    width: 120px;
+    
+    left: 1046px;
+    top: 2916.3px;
+    margin-top: 10px;
+    text-align: center;
 }
